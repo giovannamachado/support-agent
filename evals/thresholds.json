@@ -1,0 +1,5 @@
+{
+  "mrr_min": 0.85,
+  "e2e_clean_min": {"answer_rate_in_scope": 0.9, "must_include_rate": 0.8, "citation_hit_rate": 0.9, "oos_refusal_rate": 0.8},
+  "e2e_guardrail_max": {"fabricated_leak_rate": 0.05}
+}

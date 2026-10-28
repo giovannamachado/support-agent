@@ -1,0 +1,123 @@
+{
+  "retrieval_test": {
+    "bm25": {
+      "recall@1": 0.944,
+      "recall@3": 0.944,
+      "mrr": 0.958,
+      "mrr_ci95": [
+        0.875,
+        1.0
+      ],
+      "n": 18
+    },
+    "dense": {
+      "recall@1": 0.833,
+      "recall@3": 0.944,
+      "mrr": 0.889,
+      "mrr_ci95": [
+        0.759,
+        1.0
+      ],
+      "n": 18
+    },
+    "hybrid": {
+      "recall@1": 0.889,
+      "recall@3": 0.944,
+      "mrr": 0.921,
+      "mrr_ci95": [
+        0.801,
+        1.0
+      ],
+      "n": 18
+    },
+    "hybrid_rerank": {
+      "recall@1": 0.889,
+      "recall@3": 1,
+      "mrr": 0.935,
+      "mrr_ci95": [
+        0.833,
+        1.0
+      ],
+      "n": 18
+    }
+  },
+  "retrieval_dev": {
+    "bm25": {
+      "recall@1": 0.8,
+      "recall@3": 0.9,
+      "mrr": 0.86,
+      "mrr_ci95": [
+        0.715,
+        0.975
+      ],
+      "n": 20
+    },
+    "dense": {
+      "recall@1": 0.85,
+      "recall@3": 1,
+      "mrr": 0.925,
+      "mrr_ci95": [
+        0.825,
+        1.0
+      ],
+      "n": 20
+    },
+    "hybrid": {
+      "recall@1": 0.85,
+      "recall@3": 0.9,
+      "mrr": 0.897,
+      "mrr_ci95": [
+        0.775,
+        1.0
+      ],
+      "n": 20
+    },
+    "hybrid_rerank": {
+      "recall@1": 0.85,
+      "recall@3": 0.95,
+      "mrr": 0.91,
+      "mrr_ci95": [
+        0.795,
+        1.0
+      ],
+      "n": 20
+    }
+  },
+  "tau": 0.22,
+  "tau_dev_accuracy": 0.962,
+  "e2e": {
+    "clean": {
+      "answer_rate_in_scope": 1.0,
+      "must_include_rate": 0.889,
+      "citation_hit_rate": 1.0,
+      "oos_refusal_rate": 0.833,
+      "fabricated_leak_rate": 0.0,
+      "latency_ms_p50": 1.08,
+      "latency_ms_p95": 1.42,
+      "n_in_scope": 18,
+      "n_oos": 6
+    },
+    "fault_injection_no_guardrail": {
+      "answer_rate_in_scope": 1.0,
+      "must_include_rate": 0.889,
+      "citation_hit_rate": 1.0,
+      "oos_refusal_rate": 0.833,
+      "fabricated_leak_rate": 0.417,
+      "latency_ms_p50": 0.94,
+      "latency_ms_p95": 1.25,
+      "n_in_scope": 18,
+      "n_oos": 6
+    },
+    "fault_injection_with_guardrail": {
+      "answer_rate_in_scope": 1.0,
+      "must_include_rate": 0.889,
+      "citation_hit_rate": 1.0,
+      "oos_refusal_rate": 0.833,
+      "fabricated_leak_rate": 0.0,
+      "latency_ms_p50": 1.09,
+      "latency_ms_p95": 1.36,
+      "n_in_scope": 18,
+      "n_oos": 6
+    }
+  }
+}

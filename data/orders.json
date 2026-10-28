@@ -1,0 +1,6 @@
+{
+  "FF-1001": {"customer_id": "c1", "status": "delivered", "items": ["Pizza margherita", "Refrigerante"], "total": 62.9, "late_minutes": 0, "delivered_minutes_ago": 40},
+  "FF-1002": {"customer_id": "c1", "status": "on_the_way", "items": ["Hambúrguer duplo"], "total": 38.5, "late_minutes": 52, "delivered_minutes_ago": null},
+  "FF-1003": {"customer_id": "c2", "status": "delivered", "items": ["Sushi combo 20 peças"], "total": 94.0, "late_minutes": 0, "delivered_minutes_ago": 3000},
+  "FF-1004": {"customer_id": "c2", "status": "preparing", "items": ["Marmita executiva"], "total": 27.0, "late_minutes": 0, "delivered_minutes_ago": null}
+}

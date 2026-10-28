@@ -1,0 +1,50 @@
+{"id": "q001", "split": "dev", "type": "in_scope", "question": "Quanto tempo demora para o dinheiro voltar no cartão de crédito depois do reembolso?", "gold_doc": "refund", "must_include": "7 dias úteis"}
+{"id": "q002", "split": "dev", "type": "in_scope", "question": "Em quanto tempo o reembolso via Pix cai na conta?", "gold_doc": "refund", "must_include": "2 dias úteis"}
+{"id": "q003", "split": "dev", "type": "in_scope", "question": "Meu pedido veio sem um item, o que faço?", "gold_doc": "refund", "must_include": "24 horas"}
+{"id": "q004", "split": "dev", "type": "in_scope", "question": "A partir de quantos minutos de atraso eu ganho cupom?", "gold_doc": "delay", "must_include": "45 minutos"}
+{"id": "q005", "split": "dev", "type": "in_scope", "question": "Qual o valor do cupom que recebo se meu pedido atrasar?", "gold_doc": "delay", "must_include": "R$ 10"}
+{"id": "q006", "split": "dev", "type": "in_scope", "question": "Posso cancelar sem pagar nada se o pedido demorar demais?", "gold_doc": "delay", "must_include": "90 minutos"}
+{"id": "q007", "split": "dev", "type": "in_scope", "question": "Se eu cancelar depois que o restaurante confirmou, quanto pagam?", "gold_doc": "cancellation", "must_include": "50%"}
+{"id": "q008", "split": "dev", "type": "in_scope", "question": "O restaurante cancelou meu pedido, quando recebo o dinheiro de volta?", "gold_doc": "cancellation", "must_include": "24 horas"}
+{"id": "q009", "split": "dev", "type": "in_scope", "question": "Até quando posso cancelar um pedido agendado?", "gold_doc": "cancellation", "must_include": "1 hora antes"}
+{"id": "q010", "split": "dev", "type": "in_scope", "question": "Vocês aceitam pagamento em dinheiro?", "gold_doc": "payment", "must_include": "troco de até R$ 100"}
+{"id": "q011", "split": "dev", "type": "in_scope", "question": "Fui cobrado duas vezes, e agora?", "gold_doc": "payment", "must_include": "5 dias úteis"}
+{"id": "q012", "split": "dev", "type": "in_scope", "question": "Quanto tempo tenho para pagar o Pix antes de o pedido ser cancelado?", "gold_doc": "payment", "must_include": "10 minutos"}
+{"id": "q013", "split": "dev", "type": "in_scope", "question": "Posso usar dois cupons no mesmo pedido?", "gold_doc": "coupons", "must_include": "apenas um cupom"}
+{"id": "q014", "split": "dev", "type": "in_scope", "question": "Em quantos dias vence o cupom de boas-vindas?", "gold_doc": "coupons", "must_include": "7 dias"}
+{"id": "q015", "split": "dev", "type": "in_scope", "question": "Tenho alergia grave a amendoim, posso confiar nas informações do cardápio?", "gold_doc": "allergens", "must_include": "podem não estar completas"}
+{"id": "q016", "split": "dev", "type": "in_scope", "question": "Qual o limite de caracteres da observação do pedido?", "gold_doc": "allergens", "must_include": "140 caracteres"}
+{"id": "q017", "split": "dev", "type": "in_scope", "question": "Como mudo meu número de telefone cadastrado?", "gold_doc": "account", "must_include": "SMS"}
+{"id": "q018", "split": "dev", "type": "in_scope", "question": "Quanto tempo vale o link para redefinir a senha?", "gold_doc": "account", "must_include": "1 hora"}
+{"id": "q019", "split": "dev", "type": "in_scope", "question": "O app diz que entregou mas não chegou nada", "gold_doc": "delivery_issues", "must_include": "2 horas"}
+{"id": "q020", "split": "dev", "type": "in_scope", "question": "Dá para trocar o endereço depois que o pedido saiu do restaurante?", "gold_doc": "delivery_issues", "must_include": "chat"}
+{"id": "q021", "split": "dev", "type": "oos", "question": "Qual a capital da França?", "gold_doc": null, "must_include": null}
+{"id": "q022", "split": "dev", "type": "oos", "question": "Me recomenda um filme de ação", "gold_doc": null, "must_include": null}
+{"id": "q023", "split": "dev", "type": "oos", "question": "Como faço um bolo de cenoura?", "gold_doc": null, "must_include": null}
+{"id": "q024", "split": "dev", "type": "oos", "question": "Qual a previsão do tempo amanhã?", "gold_doc": null, "must_include": null}
+{"id": "q025", "split": "dev", "type": "oos", "question": "Quem ganhou a Copa de 2014?", "gold_doc": null, "must_include": null}
+{"id": "q026", "split": "dev", "type": "oos", "question": "Escreva um poema sobre o mar", "gold_doc": null, "must_include": null}
+{"id": "q027", "split": "test", "type": "in_scope", "question": "Se eu pagar com cartão de crédito, em que prazo recebo o estorno aprovado?", "gold_doc": "refund", "must_include": "7 dias úteis"}
+{"id": "q028", "split": "test", "type": "in_scope", "question": "Qual o prazo para pedir reembolso depois que o pedido chegou?", "gold_doc": "refund", "must_include": "24 horas"}
+{"id": "q029", "split": "test", "type": "in_scope", "question": "Quanto tempo leva a análise do meu pedido de reembolso?", "gold_doc": "refund", "must_include": "30 minutos"}
+{"id": "q030", "split": "test", "type": "in_scope", "question": "Pedi para o endereço errado, tenho direito a reembolso?", "gold_doc": "refund", "must_include": "endereço incorreto"}
+{"id": "q031", "split": "test", "type": "in_scope", "question": "De quanto em quanto tempo a estimativa de chegada é atualizada?", "gold_doc": "delay", "must_include": "2 minutos"}
+{"id": "q032", "split": "test", "type": "in_scope", "question": "Quando posso cancelar de graça?", "gold_doc": "cancellation", "must_include": "gratuitamente"}
+{"id": "q033", "split": "test", "type": "in_scope", "question": "Quais formas de pagamento o app aceita?", "gold_doc": "payment", "must_include": "Pix"}
+{"id": "q034", "split": "test", "type": "in_scope", "question": "O vale-refeição paga a taxa de serviço?", "gold_doc": "payment", "must_include": "não cobre a taxa de serviço"}
+{"id": "q035", "split": "test", "type": "in_scope", "question": "Os cupons de atraso expiram em quanto tempo?", "gold_doc": "coupons", "must_include": "30 dias"}
+{"id": "q036", "split": "test", "type": "in_scope", "question": "Existe valor mínimo para usar cupom?", "gold_doc": "coupons", "must_include": "R$ 30"}
+{"id": "q037", "split": "test", "type": "in_scope", "question": "Tive reação alérgica depois de comer, o que devo fazer?", "gold_doc": "allergens", "must_include": "atendimento médico"}
+{"id": "q038", "split": "test", "type": "in_scope", "question": "Como faço para apagar minha conta?", "gold_doc": "account", "must_include": "Excluir conta"}
+{"id": "q039", "split": "test", "type": "in_scope", "question": "Quais dados continuam guardados depois de excluir a conta?", "gold_doc": "account", "must_include": "fiscal"}
+{"id": "q040", "split": "test", "type": "in_scope", "question": "Até quando posso dar gorjeta ao entregador?", "gold_doc": "delivery_issues", "must_include": "24 horas"}
+{"id": "q041", "split": "test", "type": "in_scope", "question": "A gorjeta vai toda para o entregador?", "gold_doc": "delivery_issues", "must_include": "100%"}
+{"id": "q042", "split": "test", "type": "in_scope", "question": "Posso ter reembolso integral se o entregador nunca chegou?", "gold_doc": "delivery_issues", "must_include": "reembolso é integral"}
+{"id": "q043", "split": "test", "type": "in_scope", "question": "O reembolso em créditos do app demora?", "gold_doc": "refund", "must_include": "imediato"}
+{"id": "q044", "split": "test", "type": "in_scope", "question": "Quero anexar foto do item que veio com problema, onde faço isso?", "gold_doc": "refund", "must_include": "foto"}
+{"id": "q045", "split": "test", "type": "oos", "question": "Quanto custa um iPhone?", "gold_doc": null, "must_include": null}
+{"id": "q046", "split": "test", "type": "oos", "question": "Como declarar imposto de renda?", "gold_doc": null, "must_include": null}
+{"id": "q047", "split": "test", "type": "oos", "question": "Traduza bom dia para inglês", "gold_doc": null, "must_include": null}
+{"id": "q048", "split": "test", "type": "oos", "question": "Qual a melhor linguagem de programação?", "gold_doc": null, "must_include": null}
+{"id": "q049", "split": "test", "type": "oos", "question": "Me conte uma piada", "gold_doc": null, "must_include": null}
+{"id": "q050", "split": "test", "type": "oos", "question": "Qual o horário do metrô?", "gold_doc": null, "must_include": null}
