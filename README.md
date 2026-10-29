@@ -57,3 +57,7 @@ Sem chave de API, sem GPU. Para usar um LLM real, instancie `SupportAgent(llm=An
 - Custo por conversa só é *estimado* (caracteres/4); com LLM real usar `usage` da API.
 - Integração com Langfuse/OpenTelemetry (hoje: trace estruturado na resposta e em log).
 - Roteamento de intenção é por regex; trocar por classificador/tool-calling nativo do LLM.
+
+## Projetos relacionados
+- [inference-gateway](https://github.com/giovannamachado/inference-gateway) — gateway de inferência com cache semântico e resiliência
+- [food-review-llm](https://github.com/giovannamachado/food-review-llm) — pipeline de classificação de reviews, baselines e LoRA
